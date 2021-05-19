@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "moodtracker713889e5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
