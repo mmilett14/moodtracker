@@ -12,6 +12,8 @@ import NavBar from './components/NavBar';
 import Background from './background.svg';
 import './css/App.css';
 
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+
 const emotions = [
   {
     name: "angry",
@@ -221,6 +223,7 @@ class App extends Component {
               </Switch>
             {/* </BrowserRouter> */}
           </div>
+          <AmplifySignOut />
         </div>
       </Router>
     );
@@ -228,4 +231,4 @@ class App extends Component {
 
 }
 
-export default App;
+export default withAuthenticator(App);
