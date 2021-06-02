@@ -23,7 +23,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify6dce86d2c8394-staging-11514-deployment/amplify-cfn-templates/auth/moodtracker713889e5-cloudformation-template.yml",
         "logicalId": "authmoodtracker713889e5"
       },
-      "lastPushTimeStamp": "2021-05-19T01:37:15.526Z",
+      "lastPushTimeStamp": "2021-06-02T01:42:00.269Z",
       "output": {
         "UserPoolId": "us-east-2_kmKtTcdLe",
         "AppClientIDWeb": "2ilnqa64cnufpo2p7li5fec7uk",
