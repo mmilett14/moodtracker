@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "vyb",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-amplify6dce86d2c8394-staging-11514-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/6001b873c01a2ef583d1b8df6e7fa65f6ac6083c"
+}
