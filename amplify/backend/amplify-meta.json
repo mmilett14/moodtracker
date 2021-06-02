@@ -35,5 +35,23 @@
       },
       "lastPushDirHash": "0ok1A3s+5MqK9LuxKgwHSpJoEGo="
     }
+  },
+  "api": {
+    "vyb": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 365,
+              "description": "vyb_key"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
   }
 }
